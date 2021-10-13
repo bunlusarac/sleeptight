@@ -8,7 +8,6 @@ import os
 import psutil
 from urllib.request import urlopen
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 
 print(
 r"""
