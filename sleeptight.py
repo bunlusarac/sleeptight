@@ -100,35 +100,5 @@ for i in range(1, (n_hours+1)):
     #Wait 50 minutes
     time.sleep(60 * 50)
     
-   
-
+ 
 driver.close()
-
-
-"""
-start_timestamp = input("Enter the course start timestamp (HH:MM):")
-n_iterations = input("Enter length of course in hours:")
-
-webbrowser.open(f"https://online.yildiz.edu.tr/?transaction=LMS.EDU.LessonProgram.ViewOnlineLessonProgramForStudent/{course_id}")
-
-#Cooldown for pageload
-print("Waiting for page to load...")
-time.sleep(5)
-print("Waiting complete.")
-
-print("Triggering JS code to join meeting...")
-keyboard = Controller()
-keyboard.press(Key.ctrl)
-keyboard.press(Key.shift)
-keyboard.press('j')
-
-keyboard.release('j')
-keyboard.release(Key.shift)
-keyboard.release(Key.ctrl)
-
-time.sleep(5)
-
-keyboard.type(f"LMS.EDU.LessonProgram.ViewOnlineLessonProgramForStudent.attend('52392', '40473', '13.10.2021 12:00:00', '13.10.2021 12:50:00')")
-keyboard.press(Key.enter)
-keyboard.release(Key.enter)
-"""
