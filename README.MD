@@ -8,6 +8,7 @@ sleeptight is a Python/Selenium WebDriver script that joins your online YTU cour
 
 ## Installation
 You have to install Selenium and psutil to run sleeptight. You can use pip with requirements file:
+
 `pip install -r requirements.txt` 
 
 You also have to [download ChromeDriver binary](https://sites.google.com/chromium.org/driver/) and put it in the same directory with the sleeptight script.
