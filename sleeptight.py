@@ -87,7 +87,7 @@ time.sleep(5)
 for i in range(1, (n_hours+1)):
     print("Slaughtering all Zoom processes...")
     for proc in psutil.process_iter():
-        if proc.name() == ZOOM_EXE:
+        if proc.name() in ZOOM_EXE:
             proc.kill()
     
     print(f"-----Starting and waiting for next hour... [{i}/{n_hours}]-----")
