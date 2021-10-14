@@ -15,7 +15,7 @@ You have to install Selenium and psutil to run sleeptight. You can use pip with 
 
 You also have to [download ChromeDriver binary](https://sites.google.com/chromium.org/driver/) and put it in the same directory with the sleeptight script.
 
-Finally, you need to let ChromeDriver open Zoom binary automatically by checking the "Always open these types of links in the associated app" when ChromeDriver prompts you to open Zoom when you run sleeptight for the first time. You can also set Zoom to join audio automatically from Zoom.
+Finally, you need to let ChromeDriver open Zoom binary automatically by checking the "Always open these types of links in the associated app" when ChromeDriver prompts you to open Zoom when you run sleeptight for the first time. You can also set Zoom to join audio automatically.
 
 ## Course ID
 When you run the script, it will ask for the course ID. Course ID is the 5-digit ID at the end of the URL of the Online Lesson/Canlı Ders page of the course. For example if the URL is `...ViewOnlineLessonProgramForStudent/12345`, the course ID is 12345.
