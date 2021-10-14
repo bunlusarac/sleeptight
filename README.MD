@@ -6,7 +6,7 @@
 ## Summary
 sleeptight is a Python/Selenium WebDriver script that joins your online YTU courses for you while you are sleeping peacefully. It handles automatized leaving/joining to course meetings so that you don't have to worry about any nonattendance penalties. Please note that this is heavily WIP.
 
-![screenshot.png]
+!(screenshot.png)
 
 ## Installation
 You have to install Selenium and psutil to run sleeptight. You can use pip with requirements file:
